@@ -1,0 +1,33 @@
+/* Global */
+    /* Scroll Behaviour */
+    html{
+        scroll-behavior: smooth;
+    }
+    /* Fade Purple to Blue */
+    .fd-purple-blue{
+        background-color: #21D4FD;
+        background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    }
+    /* FullScreen View */
+    .full-heights{
+        min-height: 100vh;
+    }
+    /* Text Color */
+    .text-purple{
+        color: #B721FF;
+    }
+    /* Bg color */
+    .bg-purple{
+        background: #B721FF;
+    }
+/* End Global */
+
+    .nav-fade{
+        background-color: #21D4FD;
+        background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+        transition: all 1s;
+    }
+    .nav-transparent{
+        background: transparent;
+        transition: all 1s;
+    }

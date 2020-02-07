@@ -1,0 +1,297 @@
+/*Universal*/
+.bg-ornament-wt{
+    background: url(../images/ornament2.png);
+    background-repeat: no-repeat;
+    background-position: 1000px 200px;
+}
+.bg-ornament2{
+    background: url(../images/ornament2.png);
+    background-repeat: no-repeat;
+}
+.bg-ornament3{
+    background: url(../images/ornament2.png);
+    background-repeat: no-repeat;
+    background-position: 1000px 100px;
+}
+.bg-ornament4-berita{
+    background: url(../images/ornament4.png);
+    background-repeat: no-repeat;
+    background-position: 1100px 150px;
+}
+.bg-ornament5-photo{
+    background: url(../images/ornament4.png);
+    background-repeat: no-repeat;
+    background-position: -200px 300px;
+}
+.bg-ornament6-sponsor{
+    background: url(../images/ornament4.png);
+    background-repeat: no-repeat;
+    background-position: -249px 113px;
+}
+.bg-ornament7-com{
+   /* background: url(../images/ornament4.png);*/
+    background-repeat: no-repeat;
+    background-position: 1000px 600px;
+}
+@media only screen and (max-width: 600px){
+    .bg-ornament4-berita{
+        background-position: 200px 200px;
+    }
+    .bg-ornament5-photo{
+        background-position: -250px -150px;
+    }
+    .bg-ornament6-sponsor{
+        background-position: -250px -200px;
+    }
+    .bg-ornament7-com{
+        background-position: 200px 1px;
+    }
+}
+/*font*/
+@font-face{
+    font-family: 'Head';
+    src: url(../font/SCOREBOARD.ttf);
+}
+@font-face{
+    font-family: 'Subscriber';
+    src: url(../font/subscriber.otf);
+}
+@font-face{
+    font-family: 'Product-Sans-Bold-Italic';
+    src: url(../font/ProductSans-Bold-Italic.ttf);
+}
+@font-face{
+    font-family: 'Product-Sans-Regular';
+    src: url(../font/ProductSans-Regular.ttf);
+}
+body{
+    font-family: Product-Sans-Regular;
+}
+a{
+    text-decoration: none;
+    color: #09254d ;
+}
+.icons{
+    font-size: 25px;
+    margin: 5px;
+    transition: color 0.3s;
+}
+.icons:hover{
+    color: #fff;
+    display: inline-block;
+}
+.full-screen{
+    min-height: 100vh;
+}
+.full-screen2{
+    height: 105vh;
+}
+.header-pict{
+    background: url(../images/bg-1.png);
+    background-size: cover;
+    background-position: center;
+}
+.grad-filter{
+    background: linear-gradient(83deg, rgba(0, 107, 229, 0.9) , rgba(72, 218, 255, 0.8));
+}
+.grad-filter-light{
+    background: linear-gradient(83deg, rgba(0, 107, 229, 0.5) , rgba(72, 218, 255, 0.4));
+}
+.titles-nom{
+    font-family: 'Subs';
+    font-size: 55px;
+    color:#fff;
+}
+@media only screen and (max-width: 600px){
+    .full-screen{
+        height: 100vh;
+    }
+    .img-nom{
+        max-width: 250px;
+    }
+}
+
+/*Untuk Photo*/
+#photos{
+    background: #FFF;
+}
+.underlinei{
+    border-top: 5px solid #ff9d48;
+    width: 120px;
+}
+.photo-sec-title{
+    font-family: 'Subscriber';
+    font-size: 75px;
+}
+.images{
+    box-shadow: 0px 10px 10px #000;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+.image-filter{
+    overflow: hidden;
+    position: relative;
+}
+.image-filter .hover-text{
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+	margin: 0 auto;
+	color: #fff;
+	background: linear-gradient(to right, rgba(0, 107, 229, 0.9) , rgba(72, 218, 255, 0.8) 100%);
+	padding: 30% 0 0 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.image-filter .hover-text>h4 {
+	opacity: 0;
+	color: #fff;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+	transition: all 0.3s;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.image-filter:hover .hover-text>h4 {
+	opacity: 1;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+.image-filter:hover .hover-text {
+	opacity: 1;
+}
+@media only screen and (max-width: 600px){
+    .photo-sec-title{
+        font-size: 50px;
+    }
+}
+/*END PHOTO*/
+
+/*Terima Kasih PAGE*/
+.bg-thx{
+    background: #fff;
+}
+
+.thx-title{
+    font-family: 'Product-Sans-Bold-Italic';
+}
+@media only screen and (max-width: 600px){
+    .images-sm{
+        max-width: 200px;
+        margin-left: -50px;
+    }
+    .img-text{
+        max-width: 300px;
+    }
+}
+/*END TERIMA KASIH PAGE*/
+
+/*news*/
+.news-title{
+    max-width: 400px;
+}
+@media only screen and (max-width: 600px){
+    .news-title{
+        max-width: 230px;
+    }
+}
+/*EndNews*/
+
+/*Typography*/
+.type-bg{
+    background: url(../images/typo_graph.png);
+    background-size: cover;
+    background-position: center;
+}
+.dona-type{
+    color:#FFF;
+    font-size: 150px;
+    font-family: 'Product-Sans-Bold-Italic';
+}
+@media only screen and (max-width: 600px){
+    .dona-type{
+        font-size: 60px;
+    }
+}
+/*End Typographi*/
+/*Sponsor*/
+@media only screen and (max-width: 600px){
+    .spon-title{
+        font-size: 25px;
+    }
+}
+.spon-title{
+    font-size: 55px;
+}
+/*End Sponsor*/
+
+/*Komentar*/
+@media only screen and (max-width: 600px){
+    .com-title{
+        font-size: 25px;
+    }
+}
+.com-title{
+    font-size: 55px;
+}
+.card{
+    border: none;
+}
+.card-height{
+    min-height: 354px; ;
+}
+.card-height-2{
+    min-height: 450px; ;
+}
+@media only screen and (max-width: 600px){
+    .card-height-3{
+        min-height: auto;
+    }
+}
+.img-comment{
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: -2px 3px 10px #000;
+}
+.bg-blue{
+    background: #4596F2;
+}
+.bg-darkblue{
+    background: #09254d ;
+}
+.card-title{
+    font-size: 30px;
+}
+/*End Komentar*/
+
+/*Untuk contact*/
+.font-icon{
+    font-size: 20px;
+}
+.bg-trans{
+    background: transparent;
+}
+.bg-contact{
+    background: #09254d ;
+}
+.bg-trims-2{
+    background: url(../images/terima-kasih-cropp-fix.png);
+    background-size: cover;
+    background-position: -450px center;
+}
+.img-trims{
+    min-width: 200px;
+}
+@media only screen and (max-width: 600px){
+    .bg-trims-2{
+        background-position: center;
+    }
+}
+/*End Contact*/
